@@ -1,0 +1,169 @@
+@charset "UTF-8";
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    margin: 0px;
+    padding: 0px;
+}
+:root{
+    --cor1: #b38153e3;
+    --cor2: #FFC100;
+    --cor3: #bb6e30;
+}
+body{
+    background-color: var(--cor1);
+    min-height: 100vh;
+    line-height: 1.3em;
+    
+}
+header{
+    background-image: url("../imagens/ensino-a-distancia-1.jpg");
+    background-repeat: no-repeat;
+    background-size:cover ;
+    background-position: center top;
+    box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.589);
+    text-align: center;
+    height: 35vh;
+    color: white;
+    text-shadow: 2px 5px 7px black;
+}
+header > img{
+    display: inline-block;
+    max-width: 55px;
+    margin: 25px;
+    float: left;
+}
+header  h1 {
+    padding-top: 0.5em;
+    padding-bottom:1em;
+    font-size: 3em;
+    max-width: 500px;
+    margin: auto;
+    line-height: 1em;
+}
+header p {
+    color: white;
+    font-size: 1.3em;
+    font-weight: bolder;
+    text-shadow: 3px 5px 5px rgb(8, 8, 8);
+    max-width: 500px;
+    margin: auto;
+}
+nav.menu {
+    text-align: right;
+    font-size: 1.3em;
+    font-weight: bold;
+    padding: 25px;
+}
+nav.menu > a{
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    border-radius: 10px ;
+    transition-duration: 1s;
+}
+nav.menu > a:hover{
+    background-color: var(--cor2);
+}
+nav.menu a:active{
+color: var(--cor3);
+transition-duration: 0.5;
+}
+main{
+    padding: 5vh;
+    max-width: 900px;
+    min-width: 400px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin: auto;
+    background-color: white;
+}
+.artigo{
+    background-image: url("../imagens/duvida.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 15vh;
+    text-align: justify;
+}
+.image {
+    max-width: 300px;
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.295);
+    border-radius: 10px;
+    padding: 15px;
+    color: white;
+}
+.image > h1 {
+    color: var(--cor2);
+    text-shadow: 2px 2px 5px black;
+}
+.image > p {
+    text-shadow: 2px 2px 5px black;
+}
+.des{
+    display: inline-block;
+    float: right;
+    width: 350px;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+article h1{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 1.4em;
+    font-weight: bold;
+    color: var(--cor1);
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.548);
+}
+article h2{
+    padding: 15px;
+    font-size: 1.2em;
+    font-weight: bold;
+    color: var(--cor3);
+}
+article p {
+    margin-bottom: 5em;
+    text-indent: 20px;
+}
+div.imagem{
+    display: inline-block;
+    float: right;
+}
+footer{
+    background-color: rgb(68, 67, 67);
+    padding-top: 2vh;
+    text-align: center;
+    margin: auto;
+}
+footer > h1 {
+    
+    margin-top: 50px;
+    padding: 10px 0px;
+    background-color: #e66a04;
+}
+div.extra{
+    width: 300px;
+    height: 130px;
+    display: inline-block;
+    margin: auto;
+    text-align: justify;
+
+}
+div.extra > h1 {
+
+    color: var(--cor2);
+    text-shadow: 2px 2px 5px black;
+}
+div.extra > p {
+    color: white;
+    text-shadow: 2px 2px 5px black;
+}
+#con4 {
+    margin-top: 30px;
+}
+#con4 {
+    font-size: 22px;
+    margin: 10px;
+    cursor: pointer;
+}
