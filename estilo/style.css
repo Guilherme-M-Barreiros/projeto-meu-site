@@ -23,11 +23,11 @@ header{
     background-position: center top;
     box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.589);
     text-align: center;
-    height: 35vh;
+    height: 45vh;
     color: white;
     text-shadow: 2px 5px 7px black;
 }
-header > img{
+header > a > img{
     display: inline-block;
     max-width: 55px;
     margin: 25px;
@@ -48,6 +48,7 @@ header p {
     text-shadow: 3px 5px 5px rgb(8, 8, 8);
     max-width: 500px;
     margin: auto;
+    line-height: 1.2em;
 }
 nav.menu {
     text-align: right;
@@ -60,30 +61,30 @@ nav.menu > a{
     text-decoration: none;
     padding: 15px;
     border-radius: 10px ;
-    transition-duration: 1s;
+    transition-duration: 0.7s;
 }
 nav.menu > a:hover{
     background-color: var(--cor2);
 }
 nav.menu a:active{
-color: var(--cor3);
-transition-duration: 0.5;
+    color: var(--cor3);
+    transition-duration: 0.5;
 }
 main{
+    background-color: white;
     padding: 5vh;
-    max-width: 900px;
+    width: 85vw;
     min-width: 400px;
     margin-left: 20px;
     margin-right: 20px;
     margin: auto;
-    background-color: white;
 }
 .artigo{
     background-image: url("../imagens/duvida.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    padding: 15vh;
+    padding: 15vw;
     text-align: justify;
 }
 .image {
@@ -107,6 +108,9 @@ main{
     width: 350px;
     margin-top: 10px;
     margin-left: 5px;
+}
+.entrevista{
+    max-width: 500px;
 }
 article h1{
     padding-top: 15px;
