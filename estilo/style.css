@@ -131,9 +131,13 @@ article p {
     text-shadow: 2px 2px 5px black;
 }
 .des img {
-    width: 70vw;
-    min-width: 400px;
+    width: 75vw;
+    min-width: 375px;
     max-width: 500px;
+}
+.entrevista picture img {
+    max-width: 1000px;
+    max-height: 500px;
 }
 footer{
     background-color: rgb(68, 67, 67);
