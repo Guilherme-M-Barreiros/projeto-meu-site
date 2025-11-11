@@ -100,40 +100,36 @@ article h2{
 article p {
     margin-bottom: 5em;
     text-indent: 20px;
+    text-align: justify;
 }
-#art1{
+#image{
     background-image: url("../imagens/duvida.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    padding: 10vw;
+    padding: 5vw;
     text-align: justify;
-    max-width: 98vw;
-    height: 200px;
+    max-width: 90vw;
+    height: 240px;
 }
-.image {
-    min-width:  270px;  
+.art1 {
+    min-width:  250px;  
     max-width: 320px;
-    max-height: 200px;
+    max-height: 233px;
     display: inline-block;
     background-color: rgba(0, 0, 0, 0.295);
     border-radius: 10px;
-    padding: 15px;
+    padding: 10px;
     color: white;
 }
-.image > h1 {
+.art1 > h1 {
     color: var(--cor2);
     text-shadow: 2px 2px 5px black;
     font-size: 20px;
     text-align: center;
 }
-.image > p {
+.art1 > p {
     text-shadow: 2px 2px 5px black;
-}
-.des img {
-    width: 75vw;
-    min-width: 280px;
-    max-width: 500px;
 }
 .entrevista picture img {
     max-width: 1000px;
