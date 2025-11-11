@@ -132,7 +132,7 @@ article p {
 }
 .des img {
     width: 75vw;
-    min-width: 375px;
+    min-width: 280px;
     max-width: 500px;
 }
 .entrevista picture img {
